@@ -24,7 +24,7 @@ bool search(int value, int values[], int n)
     int count = 0;
    do
    {
-      if (count > (n - 1)) // Prevents infinite searching
+      if (count > (n - 1)) // Prevents infinite searching <---- Is this necessary?
       {
           return false;
       }
